@@ -1,5 +1,5 @@
 .hader-image {
-    width: 100%;
+    max-width: 100%;
     height: 510px;
     background: url("images/header-bg.jpg");
     background-size: 100% 100%;
@@ -27,13 +27,12 @@ body {
     color: white;
 }
 .contaner {
+    margin: auto;
+    margin-top: 190px;
     padding: 20px 20px;
-    position: relative;
     width: 855px;
     height: 50px;
     background-color: black;
-    top: 178px;
-    left: 228px;
     border-radius: 5px;
     background: rgba(0,0,0,0.65);
 }
@@ -74,7 +73,7 @@ body {
 }
 .p2 {
     position: relative;
-    top: 175px;
+    top: 15px;
     text-align: center;
     font-size: 13px;
     color: white;
@@ -88,24 +87,129 @@ body {
     top: -10px;
 }
 .p3 {
-    position: relative;
-    left: 300px;
-    width: 900px;
+    width: 97%;
     font-size: 22px;
+    text-align: justify;
+    padding: 10px;
 }
 .image2 {
-    position: absolute;
-    left: 150px;
+    margin: 0 10px 10px ;
+    margin-left: 130px;
+    float: left;
     width: 135px;
     height: 350px;
     background: url("images/phone.jpg");
     background-repeat: no-repeat;
 }
 .contaner1 {
-    position: relative;
-    top: 10px;
-    margin-bottom: 40px;
+    margin-top: 100px;
+    margin-bottom: 40px
 }
 .button:hover {
     background-color: rgb(221, 23, 40);
 }
+@media (max-width: 1132px) {
+    .hader-image {
+        height: 590px;
+    }
+}
+@media (max-width: 915px) {
+    .contaner {
+        width: 320px;
+        height: auto; 
+        margin: auto;
+        margin-top: 250px;
+    }
+    .hader-image {
+        height: 760px;
+    }
+    .password {
+        position: relative;
+        margin-top: 10px;
+        left: -5px; 
+    } 
+    .button {
+        position: relative;
+        top: 10px;
+        width: 322px;
+        left: -10px;
+        margin-bottom: 10px;
+    }
+    .contaner1 {
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 685px) {
+    .hader-image {
+        height: 780px;
+    }
+    .p3 {
+        width: 94%;
+    }
+}
+@media (max-width: 618px) {
+    .hader-image {
+        height: 870px;
+    }
+}
+@media (max-width: 393px) {
+    .hader-image {
+        height: 910px;
+    }
+}
+@media (max-width: 390px) {
+    .hader-image {
+        height: 980px;
+    }
+}
+@media (max-width: 380px) {
+    .contaner {
+        width: 230px;
+    }
+    .data {
+        width: 190px;
+    }
+    .button {
+        width: 225px;
+    }
+    .p3 {
+        width: 90%;
+    }
+}
+@media (max-width: 364px) {
+    .hader-image {
+        height: 1050px;
+    }
+}
+@media (max-width: 316px) {
+    .hader-image {
+        height: 1150px;
+    }
+}
+@media (max-width: 800px) {
+    .image2 {
+        margin-left: 85px;
+    }
+@media (max-width: 700px) {
+    .image2 {
+        margin-left: 65px
+    }
+}
+@media (max-width: 600px) {
+    .image2 {
+        margin-left: 45px
+    }
+}
+@media (max-width: 500px) {
+    .image2 {
+        margin-left: 25px
+    }
+}
+@media (max-width: 400px) {
+    .image2 {
+        margin-left: 5px
+    }
+}
+}
+
